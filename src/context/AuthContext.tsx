@@ -177,7 +177,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     setToken(null);
     setUserId(null);
     setUser(null);
-    window.location.href = "https://www.usetick.com/login";
+    window.location.href = "https://usetick.com/login";
   };
 
   return (
