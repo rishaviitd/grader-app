@@ -35,7 +35,7 @@ import {
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
 // Configure axios base URL
-axios.defaults.baseURL = "http://localhost:3000";
+axios.defaults.baseURL = "https://usetick-backend.onrender.com";
 
 interface Student {
   full_name: string;

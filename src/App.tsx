@@ -32,7 +32,7 @@ const queryClient = new QueryClient();
 
 // Login page redirect component
 const LoginRedirect = () => {
-  window.location.href = "http://localhost:8080/login";
+  window.location.href = "https://www.usetick.com/login";
   return null;
 };
 

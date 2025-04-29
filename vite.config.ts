@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => ({
     proxy: {
       // Proxy /api/v1 to backend server
       "/api/v1": {
-        target: "http://localhost:3000",
+        target: "https://usetick-backend.onrender.com",
         changeOrigin: true,
         secure: false,
         logLevel: "debug",

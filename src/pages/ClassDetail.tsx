@@ -9,7 +9,7 @@ import axios from "axios";
 import { useToast } from "@/hooks/use-toast";
 
 // Configure axios base URL
-axios.defaults.baseURL = "http://localhost:3000";
+axios.defaults.baseURL = "https://usetick-backend.onrender.com";
 
 interface Student {
   id: string;
